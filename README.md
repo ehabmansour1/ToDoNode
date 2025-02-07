@@ -1,6 +1,11 @@
 
 # Todo API Documentation
 
+## Deployment
+- **Host**: AWS Lightsail
+- **IP**: 35.180.4.197
+- **Port**: 9898
+
 A simple Todo API built with Node.js and Express. Deployed on AWS Lightsail at:
 
 **Base URL**  
