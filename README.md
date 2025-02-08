@@ -158,9 +158,4 @@ Use tools like Postman or curl to test the API.
   DELETE http://35.180.4.197:9898/api/v1/todos
   ```
 
-## Deployment
-- **Host**: AWS Lightsail
-- **IP**: 35.180.4.197
-- **Port**: 9898
-
 
