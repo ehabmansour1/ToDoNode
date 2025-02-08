@@ -23,7 +23,7 @@ A simple Todo API built with Node.js and Express. Deployed on AWS Lightsail at:
   {
     "id": "123",
     "description": "Buy groceries",
-    "status": "INITIALIZED",
+    "status": "initialized",
     "created_at": "2023-10-01T12:00:00Z",
     "updated_at": "2023-10-01T12:00:00Z"
   }
@@ -46,7 +46,7 @@ A simple Todo API built with Node.js and Express. Deployed on AWS Lightsail at:
 {
   "id": "456",
   "description": "Walk the dog",
-  "status": "INITIALIZED",
+  "status": "initialized",
   "created_at": "2023-10-01T12:05:00Z",
   "updated_at": "2023-10-01T12:05:00Z"
 }
@@ -61,7 +61,7 @@ A simple Todo API built with Node.js and Express. Deployed on AWS Lightsail at:
 {
   "id": "123",
   "description": "Buy groceries",
-  "status": "INITIALIZED",
+  "status": "initialized",
   "created_at": "2023-10-01T12:00:00Z",
   "updated_at": "2023-10-01T12:00:00Z"
 }
@@ -75,7 +75,7 @@ A simple Todo API built with Node.js and Express. Deployed on AWS Lightsail at:
 ```json
 {
   "description": "Buy groceries and milk",
-  "status": "DONE"
+  "status": "completed"
 }
 ```
 
@@ -84,7 +84,7 @@ A simple Todo API built with Node.js and Express. Deployed on AWS Lightsail at:
 {
   "id": "123",
   "description": "Buy groceries and milk",
-  "status": "DONE",
+  "status": "completed",
   "created_at": "2023-10-01T12:00:00Z",
   "updated_at": "2023-10-01T12:10:00Z"
 }
@@ -144,7 +144,7 @@ Use tools like Postman or curl to test the API.
 - **Update a Todo by ID**:
   ```http
   PUT http://35.180.4.197:9898/api/v1/todos/123
-  Body: { "description": "Buy groceries and milk", "status": "DONE" }
+  Body: { "description": "Buy groceries and milk", "status": "completed" }
   ```
 
 - **Delete a Todo by ID**:
@@ -181,7 +181,7 @@ A simple Todo API built with Node.js and Express. Deployed on AWS Lightsail at:
   {
     "id": "123",
     "description": "Buy groceries",
-    "status": "INITIALIZED",
+    "status": "initialized",
     "created_at": "2023-10-01T12:00:00Z",
     "updated_at": "2023-10-01T12:00:00Z"
   }
@@ -204,7 +204,7 @@ A simple Todo API built with Node.js and Express. Deployed on AWS Lightsail at:
 {
   "id": "456",
   "description": "Walk the dog",
-  "status": "INITIALIZED",
+  "status": "initialized",
   "created_at": "2023-10-01T12:05:00Z",
   "updated_at": "2023-10-01T12:05:00Z"
 }
@@ -219,7 +219,7 @@ A simple Todo API built with Node.js and Express. Deployed on AWS Lightsail at:
 {
   "id": "123",
   "description": "Buy groceries",
-  "status": "INITIALIZED",
+  "status": "initialized",
   "created_at": "2023-10-01T12:00:00Z",
   "updated_at": "2023-10-01T12:00:00Z"
 }
@@ -233,7 +233,7 @@ A simple Todo API built with Node.js and Express. Deployed on AWS Lightsail at:
 ```json
 {
   "description": "Buy groceries and milk",
-  "status": "DONE"
+  "status": "completed"
 }
 ```
 
@@ -242,7 +242,7 @@ A simple Todo API built with Node.js and Express. Deployed on AWS Lightsail at:
 {
   "id": "123",
   "description": "Buy groceries and milk",
-  "status": "DONE",
+  "status": "completed",
   "created_at": "2023-10-01T12:00:00Z",
   "updated_at": "2023-10-01T12:10:00Z"
 }
@@ -302,7 +302,7 @@ Use tools like Postman or curl to test the API.
 - **Update a Todo by ID**:
   ```http
   PUT http://35.180.4.197:9898/api/v1/todos/123
-  Body: { "description": "Buy groceries and milk", "status": "DONE" }
+  Body: { "description": "Buy groceries and milk", "status": "completed" }
   ```
 
 - **Delete a Todo by ID**:
